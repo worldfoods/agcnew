@@ -1,0 +1,135 @@
+
+
+- Dibawah ini kode iklan adstera yang belum di rubah karena mengandung kode "document.write" 
+
+<script type="text/javascript">
+	atOptions = {
+		'key' : '4768d88c583cf9c941ed417b2507013f',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://refuserates.com/4768d88c583cf9c941ed417b2507013f/invoke.js"></scr' + 'ipt>');
+</script>
+
+
+
+- setelah dirubah akan menjadi seperti ini, silahkan di ikuti buat yang lainnya ---------
+
+
+<script type="text/javascript">
+	atOptions = {
+		'key' : '4768d88c583cf9c941ed4xxxxxxxxxxxxx',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+</script>
+<script src="://refuserates.com/4768d88c583cf9c941ed417b2507013f/invoke.js"></script>
+
+
+- Setelah itu, convert pakai disc.maskoding.com lalu pastekan pada baris terakhir file inject.js
+
+
+
+
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'c7cc9bbe583b37fca4b40d77af3687bf',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+</script>
+<script src="://albeitinflame.com/c7cc9bbe583b37fca4b40d77af3687bf/invoke.js"></script>
+
+
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'c7cc9bbe583b37fca4b40d77af3687bf',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+</script>
+
+<script type="text/javascript" src="//albeitinflame.com/c7cc9bbe583b37fca4b40d77af3687bf/invoke.js"></script>
+
+
+
+(function(){injectScript([{"attr":[{"name":"type","value":"text/javascript"},{"name":"src","value":"//albeitinflame.com/21/1a/04/211a043017987d635223290579100b18.js"}],"tag":"script","inner":""}],{"target":"body"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
+
+
+(function(){injectScript([{"attr":[{"name":"type","value":"text/javascript"},{"name":"src","value":"//albeitinflame.com/30/4b/ae/304bae8993ecee9e80683c11a8e84bd6.js"}],"tag":"script","inner":""},{"attr":[],"tag":"br","inner":""},{"attr":[{"name":"type","value":"text/javascript"},{"name":"src","value":"//albeitinflame.com/21/1a/04/211a043017987d635223290579100b18.js"}],"tag":"script","inner":""}],{"target":"body"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
+
+
+(function(){injectScript([{"attr":[{"name":"type","value":"text/javascript"}],"tag":"script","inner":"var _Hasync= _Hasync|| [];\n_Hasync.push(['Histats.start', '1,4607560,4,0,0,0,00010000']);\n_Hasync.push(['Histats.fasi', '1']);\n_Hasync.push(['Histats.track_hits', '']);\n(function() {\nvar hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;\nhs.src = ('//s10.histats.com/js15_as.js');\n(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);\n})();"},{"attr":[],"tag":"noscript","inner":"<a href=\"/\" target=\"_blank\"><img src=\"//sstatic1.histats.com/0.gif?4607560&amp;101\" alt=\"\" border=\"0\"></a>"}],{"target":"body"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
+
+
+
+      ".container",
+      "#container",
+      ".content",
+      ".content-wrapper",
+      ".page-content content content--classic",
+      ".pageContent container",
+      ".main-content",
+      ".article-container ",
+      ".container container--content",
+      ".page__grid",
+      ".topic-home body--home",
+      ".post-template-default",
+      ".gfl-mainbody blog",
+      ".nx-body",
+      ".break home_layout",
+      ".HomePage-body",
+      ".pa15.bgwhite"
+
+
+GWT:
+
+
+
+Dibawah: inject-element-head":[
+
+{
+  "name-element":"meta",
+  "data-attribute":[
+    {
+      "name-attribute":"name",
+      "value-attribute":"google-site-verification"
+    },
+    {
+      "name-attribute":"content",
+      "value-attribute":"P2T15GrGq6NS1hX_UH7mYGXyozRWEpX9EgdJW6GzqUw"
+    }
+  ],
+  "data-innerHTML":"",
+  "position":"start"
+},
+
+
+{
+  "name-element":"meta",
+  "data-attribute":[
+    {
+      "name-attribute":"name",
+      "value-attribute":"msvalidate.01"
+    },
+    {
+      "name-attribute":"content",
+      "value-attribute":"530B1F79F674E03D3AB4992A321B4102"
+    }
+  ],
+  "data-innerHTML":"",
+  "position":"start"
+},
+
+
+
+
+

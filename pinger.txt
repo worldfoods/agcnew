@@ -1,0 +1,37 @@
+
+
+https://script.google.com
+
+
+
+
+
+
+var urlServer = [
+    "https://saktie.repl.co",
+    "https://news.bgws.info",
+];
+
+
+function doGet() {
+    doStart(urlServer, 0);
+};
+
+function doStart(data, number) {
+    if (number < urlServer.length) {
+        get(data, number);
+    };
+};
+
+var fetchParameters = {};
+fetchParameters.muteHttpExceptions = true;
+
+function get(data, number) {
+    var response = UrlFetchApp.fetch(data[number], fetchParameters);
+    if (response.getResponseCode() == 502) {
+        console.log("server " + data[number] + " : down");
+    } else {
+        console.log("server " + data[number] + " : live");
+    };
+    doStart(data, (number + 1));
+};
